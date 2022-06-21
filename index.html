@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">    
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4621fba49c.js" crossorigin="anonymous"></script>
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    
+    <title>Blue & Gold Films</title>
+    <link rel="shortcut icon" href="img\favicon.png" />
+</head>
+
+<body>
+    <header class="container header">
+        <div class="row">
+            <div class="col-12 header_area">
+                <div class="row">
+                    <div class="col-12">
+                        <!--Cabeçalho-->
+                        <div class="row">
+                            <div class="col-03">
+                                <img src="img/Logo Bilhete-Cinema.png" class="logo">
+                                <a href="#"><i class="fa-solid fa-circle-user user"></i></a>
+                                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                                <a href="#"><i class="fa-solid fa-shuffle"></i></a>                                
+                            </div>
+
+                            <div class="col-03">
+                                <nav class="navbar navbar-expand-lg navbar-light">                                
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-topo" aria-controls="navbar-topo" aria-expanded="false" aria-label="Alterna navegação">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbar-topo">
+                                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#section-lancamentos">Lançamentos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#destaque">Em Destaque</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#ultimas-avaliacoes">Avaliações</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#entrevistas-making">Entrevistas</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#novidades">Novidades</a>
+                                            </li>
+                                        </ul>
+                                        <form id="form" class="form">
+                                            <input type="search" id="search" class="search" name="fname" placeholder="Pesquise um filme">
+                                            <button><i class="fa-solid fa-magnifying-glass botao"></i></button>
+                                        </form>                      
+                                    </div>
+                                </nav>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="container main" id="main">
+            <!--Lançamentos-->
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <div class="titulo">
+                        <h2>Lançamentos</h2>
+                    </div>
+
+                    <!--Carousel-->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/tgB1wUcmbbw"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="col">
+                                            <h2 class="titulo_sinopse">Thor: Amor e Trovão</h2>
+                                            <p class="sinopse">Thor: Love and Thunder é um próximo filme de super-herói americano baseado no personagem da Marvel Comics Thor, produzido pela Marvel Studios e distribuído pela Walt Disney Studios Motion Pictures. Pretende ser a sequência direta de Thor: Ragnarok e o 29º filme do Universo Cinematográfico Marvel.</p>
+                                            <p><b>Diretor: </b>Taika Waititi <br><b>Roteiro: </b>Stan Lee | Jack Kirby | Larry Lieber<br><b>
+                                                    Estreia: </b>2022<br><b>Elenco: </b>Chris Hensworth | Cristian Bale | Natalie Portman |
+                                                Taika Waititi | Cris Pratt | Tessa Thompson</p>
+                                            <p></p>
+                                            <p><b>Avaliações: </b> &#9733&#9733&#9733&#9733&#9734</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ng-WDbNlaZs"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="col">
+                                            <h2 class="titulo_sinopse">Animais Fantásticos os Segredos de Dumbledore</h2>
+                                            <p class="sinopse"><b>Sinopse: </b>O professor Alvo Dumbledore sabe que o poderoso bruxo das trevas Gellert Grindelwald está se movendo para assumir o controle do mundo bruxo. Incapaz de detê-lo sozinho, ele confia ao magizoologista Newt Scamander para liderar uma intrépida equipe de bruxos e bruxas. Eles logo encontram uma série de feras antigas e novas enquanto enfrentam a crescente legião de seguidores de Grindelwald.</p>
+                                            <p><b>Diretor: </b>David Yates <br><b>Roteiro: </b>J. K. Rowling | Steve Kloves <br><b> Estreia: </b>2022<br><b>Elenco: </b>Eddie Redmayne | Katherine Waterston |
+                                                Dan Fogler | Ron Perlman</p>
+                                            <p></p>
+                                            <p><b>Avaliações: </b> &#9733&#9733&#9733&#9734&#9734</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vfP-rsKVNKs"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="col">
+                                            <h2 class="titulo_sinopse">Doutor Estranho no Multiverso da Loucura</h2>
+                                            <p class="sinopse"><b>Sinopse: </b>Dr Stephen Strange lança um feitiço proibido que abre um portal para o multiverso. No entanto, surge uma ameaça que pode ser grande demais para sua equipe lidar.</p>
+                                            <p><b>Diretor: </b>Sam Raimi <br><b>Roteiro: </b>Michael Waldron | Jade Barlett<br><b>
+                                                    Estreia: </b>2022<br><b>Elenco: </b>Benedict Cumberbatch | Elizabeth Olsen | Xochitl |
+                                                Patrick Stewart | Bruce Campbell | Rachel McAdams | Adam Hugill | Tony McCarthy</p>
+                                            <p></p>
+                                            <p><b>Avaliações: </b> &#9733&#9733&#9733&#9733&#9733</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Próximo</span>
+                            </a>
+                        </div>
+                </div>
+            </div>
+            
+            <!-- Em destaque -->
+		    <section id="section-destaque">
+			    <div class="container">
+				    <div class="row title-row">
+					    <div class="col-6 col-lg-9">
+    						<h2><strong>Em Destaque</strong></h2>
+					    </div>
+					    <div class="col-6 col-lg-3">
+						    <select id="destaque-categorias" name="destaque-categoria" class="form-control"></select>
+    					</div>
+				    </div>
+				    <div class="row filmes-destaque"></div>
+				    <div class="row">
+					    <div class="col-12">
+						    <button class="btn btn-info float-right mais-destaques"><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
+    					</div>
+				    </div>
+    			</div>
+		    </section>    
+            
+            <!--Últimas avaliações-->
+            <div class="row ultimas-avaliacoes" id="ultimas-avaliacoes">
+                <div class="titulo">
+                    <h2>Últimas avaliações</h2>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="avaliacao">
+                        <h3>
+                            <img src="img/Perfis/1-perfil.jpg" alt="Perfil" class="perfil">
+                            José Maurício
+                        </h3>
+                        <p><strong>Avaliação</strong> Considerado um dos filmes de super-heróis de maior sucesso já
+                            feitos,
+                            "Homem-Aranha" é uma adaptação cinematográfica de super-heróis de um dos quadrinhos mais
+                            populares da Marvel de Stan Lee, e se tornando um dos primeiros filmes a ter o maior fim de
+                            semana de estreia nas bilheterias. Não é de admirar, porque este é um filme emocionante e
+                            agradável.
+                        </p>
+
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-1" name="fb" value="1" />
+                            <label for="cm_star-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-2" name="fb" value="2" />
+                            <label for="cm_star-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-3" name="fb" value="3" />
+                            <label for="cm_star-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-4" name="fb" value="4" />
+                            <label for="cm_star-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-5" name="fb" value="5" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="avaliacao">
+                        <h3>
+                            <img src="img/Perfis/2-perfil.jpg" alt="Perfil" class="perfil">
+                            Amelia Margaret
+                        </h3>
+                        <p><strong>Avaliação</strong> Tivemos melhores filmes do Homem-Aranha desde este, mas na época
+                            de
+                            seu lançamento e comparado a outros filmes do gênero de vez em quando, isso apenas acerta a
+                            bola
+                            fora do parque de uma maneira que ninguém poderia imaginar . Tobey Maguire, embora
+                            reconhecidamente um Peter Parker melhor do que um Homem-Aranha, é encantador, caloroso e
+                            relacionável. Kirsten Dunst como Mary-Jane é bastante decente, dando a forma como sua
+                            personagem
+                            foi escrita.
+                        </p>
+
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-1" name="fb" value="1" />
+                            <label for="cm_star-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-2" name="fb" value="2" />
+                            <label for="cm_star-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-3" name="fb" value="3" />
+                            <label for="cm_star-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-4" name="fb" value="4" />
+                            <label for="cm_star-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-5" name="fb" value="5" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="avaliacao">
+                        <h3>
+                            <img src="img/Perfis/3-perfil.jpg" class="perfil">
+                            Isabella Victoria
+                        </h3>
+                        <p><strong>Avaliação</strong> Uma das minhas primeiras lembranças é estar sentado com meu irmão
+                            mais
+                            velho assistindo esse filme. Fiquei imediatamente apaixonada por esse filme, a música, a
+                            ação, a
+                            história é tão boa sim! pode ser brega às vezes, mas isso é divertido, você sente que é uma
+                            história em quadrinhos viva! O desempenho é perfeito tobey Maguire é a definição de Peter
+                            Parker, se você nunca o viu, pegue uma tigela de pipoca, sente-se e assista. Espero que
+                            gostem
+                            tanto quanto eu, eu classificaria este filme como 9/10.
+                        </p>
+
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-1" name="fb" value="1" />
+                            <label for="cm_star-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-2" name="fb" value="2" />
+                            <label for="cm_star-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-3" name="fb" value="3" />
+                            <label for="cm_star-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-4" name="fb" value="4" />
+                            <label for="cm_star-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-5" name="fb" value="5" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Entrevistas & Making of-->
+            <div class="row entrevistas-making" id="entrevistas-making">
+                <div class="titulo">
+                    <h2>Entrevistas & Making of</h2>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/WiaVytNI5zY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="info-filme">
+                        <p>
+                            <strong>Filme: </strong>Animais Fantásticos e o Segredo de Dumbledore<br>
+                            <strong>Diretor: </strong>David Yates
+                            <strong>Roteiro: </strong> J. K. Rowling e Steve Kloves <strong>Estreia: </strong>2022
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/Z7wtsuCDaTc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="info-filme">
+                        <p>
+                            <strong>Filme: </strong>Sonic 2<br>
+                            <strong>Diretor: </strong>Jeff Fowler
+                            <strong>Roteiro: </strong> Josh Miller, John Whittington e Patrick Casey <strong>Estreia:
+                            </strong>2022
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/On8S4X_j5Io"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="info-filme">
+                        <p>
+                            <strong>Filme: </strong>O Batman<br>
+                            <strong>Diretor: </strong>Matt Reeves
+                            <strong>Roteiro: </strong>Peter Craig<strong> Estreia: </strong>2022
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-12">
+                        <button type="button" class="btn btn-dark">+ Carregar mais filmes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Novidades-->
+            <div class="row novidades" id="novidades">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2>Novidades</h2>
+                    <div class="materia">
+                        <div class="titulo">
+                            <h3>
+                                <img src="img/Banners/1-banner.jpg" width="100"><a
+                                    href="https://thedirect.com/article/doctor-strange-2-clea-character"
+                                    target="_blank">A
+                                    realidade se espalha em novo featurette de 'Doutor Estranho...</a>
+                            </h3>
+                        </div>
+
+                        <div class="corpo">
+                            <p>
+                                Ao lado do Feiticeiro Supremo nesta sequência de distorção da realidadedo "Doutor
+                                Estranho"
+                                do diretor Scott Derrickson de 2016 está...
+                            </p>
+                        </div>
+
+                        <div class="tags">
+                            <p><a href="https://en.wikipedia.org/wiki/Hollywood" target="_blank">hollywood</a></p>
+                            <p><a href="https://www.oscars.org/" target="_blank">oscar</a></p>
+                            <p><a href="https://pt.wikipedia.org/wiki/Oscar_de_melhor_filme" target="_blank">melhor
+                                    filme</a></p>
+                        </div>
+                    </div>
+
+                    <div class="materia">
+                        <div class="titulo">
+                            <h3>
+                                <img src="img/Banners/2-banner.jpg" width="100"><a
+                                    href="https://screenrant.com/toy-story-buzz-lightyear-freeze-humans-theory-explained/"
+                                    target="_blank">Teoria de Toy Story explica o motivo real de Buzz Lightyear congelar
+                                    em
+                                    torno de humanos</a>
+                            </h3>
+                        </div>
+
+                        <div class="corpo">
+                            <p>
+                                Uma teoria de Toy Story explica por que Buzz Lightyear congelou em torno de humanos,
+                                mesmo
+                                que ele não soubesse que era um brinquedo, e isso poderia estár relacionado ao
+                                próximo...
+                            </p>
+                        </div>
+
+                        <div class="tags">
+                            <p><a href="https://en.wikipedia.org/wiki/Hollywood" target="_blank">hollywood</a></p>
+                            <p><a href="https://www.oscars.org/" target="_blank">oscar</a></p>
+                            <p><a href="https://pt.wikipedia.org/wiki/Oscar_de_melhor_filme" target="_blank">melhor
+                                    filme</a></p>
+                        </div>
+                    </div>
+                    <div class="materia">
+
+                        <div class="titulo">
+                            <h3>
+                                <img src="img/Banners/3-banner.jpg" width="100"><a
+                                    href="https://ovicio.com.br/top-gun-maverick-ganha-poster-inedito/"
+                                    target="_blank">Top
+                                    Gun: Maverick' ganha primeira versão inédita</a>
+                            </h3>
+                        </div>
+
+                        <div class="corpo">
+                            <p>
+                                A Paramount Pictures destacando os principais destaques. Após trinta anos de serviço...
+                            </p>
+                        </div>
+
+                        <div class="tags">
+                            <p><a href="https://en.wikipedia.org/wiki/Hollywood" target="_blank">hollywood</a></p>
+                            <p><a href="https://www.oscars.org/" target="_blank">oscar</a></p>
+                            <p><a href="https://pt.wikipedia.org/wiki/Oscar_de_melhor_filme" target="_blank">melhor
+                                    filme</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Sobre e editorial-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2>Sobre</h2>
+                    <p>
+                        Somos a Blue & Gold Films Inc. uma plataforma de streaming para assistir filmes e séries grátis,
+                        nascida em 2022, no Brasil, com a proposta de facilitar e colocar o poder do entreternimento ao
+                        alcance de todas as pessoas de forma gratuita e democrática. Disponabilizamos filmes de todos os
+                        gêneros e de todos os tipos desde os últimos lançamentos até os clássicos Blockbusters. Nem
+                        todos os
+                        lançamentos de cinema estarão imediatamente disponíveis aqui em nossa plataforma, pode demorar
+                        alguns dias após o lançamento dos longas para estar à disposição dos nossos usuários. Estamos
+                        trabalhando cada vez mais para entregar novos conteúdos e com mais qualidade para
+                        nossos clientes e oferecer uma imersão de cinema de forma cada vez mais completa.
+                    </p>
+
+                    <p>
+                        Disponabilizamos áreas em nossa plataforma para expressar críticas sobre as séries e filmes,
+                        além de reunir avaliações de críticos de cinema, entrevistas e making of exclusivos sobre os conteúdos.
+                    </p>
+
+                    <p>
+                        Trazemos notícias a cada assunto importante que sai dos studios de hollywood para manter nossos
+                        leitores informados do que acontece no mundo cinematográfico.
+                    </p>
+
+                    <p>
+                        Para recomendação de filmes e séries para que podemos trazer para a plataforma envie através de
+                        e-mail que faremos o possível para fornecer o material com a melhor qualidade para nossos
+                        clientes.<br><br><br>
+                    </p>
+                    <h2>Editorial</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-user"></i><strong> Redação: </strong>André Willians</li>
+                        <li><i class="fa-solid fa-user"></i><strong> Pesquisa: </strong>Joana Dark Lewis</li>
+                        <li><i class="fa-solid fa-user"></i><strong> Gerente Geral: </strong> Antônio Moore</li>
+                    </ul>
+                    <!--Sociais-->
+                    <h2>Redes Sociais</h2>
+                    <ul class="sociais">
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></a></i></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></a></i></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></a></i></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></a></i></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer class="container footer">
+            <!--Rodapé-->
+            <div class="row">
+                <div class="col-3 col-sm-2 col-md-2 col-lg-2 footer_area">
+                    <ul>
+                        <li><a href="#">Idiomas e legenda</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Entre em contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3 col-sm-2 col-md-2 col-lg-2 footer_area">
+                    <ul>
+                        <li><a href="#">Audiodescrição</a></li>
+                        <li><a href="#">Avisos legais</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3 col-sm-2 col-md-2 col-lg-2 footer_area">
+                    <ul>
+                        <li><a href="#">Centro de ajuda</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Sugestões de filmes</a></li>
+                        <li><a href="#">Preferências de cookies</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3 col-sm-2 col-md-2 col-lg-2 footer_area">
+                    <ul>
+                        <li><a href="#">Cartão pré-pago</a></li>
+                        <li><a href="#">Termos de uso</a></li>
+                        <li><a href="#">Informações corporativas</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 footer_area">
+                    <h6 class="informacoes"><a href="index.html">Copyright 2022 - Blue & Gold Films - Todos os direitos
+                            reservados - 2022</a><img src="img/Logo Bilhete-Cinema.png" class="logo" width="100px">
+                    </h6>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous">
+        </script>
+        <script src="script.js"></script>
+</body>
+
+</html>

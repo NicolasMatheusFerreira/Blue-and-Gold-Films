@@ -1,0 +1,439 @@
+body {
+    background-color: rgb(0, 0, 27);
+    margin: 0px;
+    padding: 0px;
+}
+h6 {
+    color: white;
+}
+/* Menu do Website */
+.header {
+    margin: 0px;
+    padding-top: 10px;
+    max-width: 100%;
+    background: rgb(247, 210, 0);
+    box-shadow: 0 0 10px 10px rgb(0, 0, 0);
+}
+
+.logo {
+    max-width: 11%;
+    margin: 0px 70px;
+}
+
+.fa-bell, .user, .fa-shuffle {
+    font-size: 25px;
+    float: right;
+    margin: 20px;
+    color: rgb(0, 0, 27);
+}
+
+.fa-bell:hover, .user:hover, .fa-shuffle:hover {
+    color: rgb(0, 0, 119);
+    transition-duration: 0.2s;
+}
+.navbar-collapse {
+    padding: 20px 0px 0px 0px;
+}
+
+.menu_area {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.navbar-collapse ul li{
+    margin-left: 80px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.menu_area nav a:hover {
+    color: rgb(0, 0, 119);
+    transition-duration: 0.2s;
+}
+
+.menu_area {
+    margin-bottom: 20px;
+}
+
+.botao {
+    font-style: none;
+    border-style: none;        
+    background-color: rgb(247, 210, 0);
+}
+
+.search {
+    opacity: 30%;
+    border-radius: 30px;
+    max-width: 100%;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid black;
+}
+
+.search:hover {
+    opacity: 100%;
+    transition-duration: 1s;
+}
+
+.search:focus {
+    opacity: 100%;
+}
+
+/* Corpo da página Web*/
+.main .card {
+    background-color: rgb(0, 0, 12);
+    border-radius: 2%;
+    width: 20%;
+    margin: 2.00%;
+    
+}
+
+.main img {
+    border-radius: 3%;
+    padding: 5px;
+}
+
+.main .card h5,
+p {
+    color: white;
+}
+
+.main .card:hover {
+    width: 21%;
+}
+
+.main_area {
+    padding: 100px;
+    color: red;
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.main h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+.main h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.main .dropdown {
+    float: right;
+    padding-top: 30px;
+}
+
+.main .avaliacao .estrelas input[type=radio] {
+    display: none;    
+  }
+  .main .avaliacao  .estrelas label i.fa{
+    font-size: 1em    
+  }
+  .main .avaliacao  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;    
+  }
+  .main .avaliacao .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+
+  .main .avaliacao {
+      margin: 0px;
+      padding: 0px;
+  }
+.main .avaliacao .perfil {
+    width: 50px;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 100%;
+}
+
+.main .entrevistas-making {
+    margin-top: 50px;
+}
+
+.main .entrevistas-making iframe {
+    border-radius: 10px;
+    box-shadow: 3px 0 10px 2.5px rgb(0, 0, 0);
+}
+
+.main .btn-dark {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.main .novidades ul {
+    padding: 0px;
+}
+
+.main .novidades ul li {
+    color: white;
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.main .novidades .tags p {
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+}
+
+.main .novidades .tags a {
+    color: black;
+}
+
+.sociais {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sociais li {
+    display: inline;
+    padding: 12px;
+}
+
+.novidades .sociais li i {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    transition-duration: 0.2s;
+}
+
+.novidades .sociais li i:hover {
+    color: rgb(0, 0, 119);
+}
+
+.novidades .materia {
+    background-color: rgb(0, 0, 2);
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.novidades .titulo h3 a {
+    padding: 5px;
+    color: rgb(0, 0, 119);
+}
+
+.novidades .titulo h3 a:hover {
+    color: rgb(247, 210, 0);
+}
+
+.novidades .titulo h3 a:visited {
+    color: rgb(247, 210, 0);
+}
+
+.novidades .materia img {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.novidades .tags:hover {
+    opacity: 40%;
+}
+
+.form-control {
+    background-color: rgb(247, 210, 0);
+}
+.mais-destaques {
+    background-color: rgb(247, 210, 0);
+}
+p.card-text {
+    font-size: 0.8em;
+  }
+  
+  section {
+    padding: 10px 0px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    button.btn.btn-info.float-right {
+      width: 100%;
+    }
+  }
+  
+    
+/* Destaque */
+
+section#section-destaque {
+    padding-top: 20px;
+  }
+  
+  .filme-destaque {
+    margin-bottom: 15px;
+    height: 100%;
+  }
+  
+  /* FIM Destaque */
+/* Avaliações */
+
+section#section-avaliacoes div.cards-avaliacao div.col-12 {
+    margin-bottom: 10px;
+  }
+  
+  section#section-avaliacoes div.cards-avaliacao div.card {
+    min-height: 200px;
+  }
+  
+  /* FIM Avaliações */
+
+/* Rodapé */
+.footer {
+    background: rgb(247, 210, 0);
+    max-width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer_area {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_area .informacoes {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_area li {
+    font-size: 14px;
+    font-weight: normal;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_area li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_area li a:hover {
+    color: rgb(0, 0, 119);
+    font-weight: bolder;
+    transition-duration: 0.2s;
+    font-size: 14.5px;
+}
+
+.footer_area h6 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer_area a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_area a:hover {
+    color: rgb(0, 0, 119);
+}
+
+/* Media Queries - Mobilie */
+
+@media screen and (max-width: 468px) {
+    .logo {
+        max-width: 30%;
+        margin: 0px 10px;
+    }
+
+    .main .card {
+        width: 80%;
+        margin: 20%;
+    }        
+
+    .main .card:hover {
+        margin: 20%;
+        width: 80%;
+    }        
+}
+
+@media screen and (max-width: 568px) {
+    .logo {
+        max-width: 30%;
+        margin: 0px 10px;
+    }
+
+    .main .card {
+        width: 60%;
+        margin: 20%;
+    }        
+
+    .main .card:hover {
+        margin: 20%;
+        width: 60%;
+    }        
+}
+
+@media screen and (max-width: 768px) {    
+
+    .header {
+        max-width: 100%;
+        display: flex;
+    }
+
+    .main {
+        max-width: 100%;
+        display: flex;
+    }
+
+    .footer {
+        max-width: 100%;
+        display: flex;
+    }
+    
+    .logo {
+        max-width: 25%;
+        margin: 0px 10px;
+    }    
+
+    .carousel-item iframe {
+        max-width: max-content;
+    }
+
+    .main .card {
+        width: 40%;
+        margin: .5%;
+    }        
+
+    .main .card:hover {
+        margin: .5%;
+        width: 40%;
+    }        
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        max-width: 25%;
+        margin: 0px 10px;
+    }
+}

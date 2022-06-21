@@ -1,0 +1,14 @@
+.detalhes {        
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    border-radius: 20px;    
+    position: relative;
+    left: 20%;
+}
+
+.detalhes img {
+    width: 60%;
+}
+
+
