@@ -2,7 +2,7 @@
 Trabalho de uma página web responsiva desenvolvido na disciplina de **(DIW) Desenvolvimento de Interfaces Web**, com tema central de um serviço de streaming de filmes e séries.
 
 <img src="https://user-images.githubusercontent.com/71523671/163729223-d0486073-ac88-48fe-b08f-91d2fb3f21df.png" width="200">
-<img src="https://user-images.githubusercontent.com/71523671/164542587-29ad1c35-49a3-4026-83b5-12e2e246c45c.png" width="200">
+<img src="https://user-images.githubusercontent.com/71523671/164542587-29ad1c35-49a3-4026-83b5-12e2e246c45c.png](https://user-images.githubusercontent.com/71523671/174907989-7b323888-9352-46d3-879d-e8b9afbf4aee.png" width="200">
 <h3><a href="https://nicolasmatheusferreira.github.io/Blue-and-Gold-Films/">Blue-Gold-Films.github.io</a></h3>
 
 # Objetivos do trabalho
