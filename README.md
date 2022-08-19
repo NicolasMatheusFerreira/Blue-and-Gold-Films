@@ -4,7 +4,7 @@ Trabalho de uma página web responsiva desenvolvido na disciplina de **(DIW) Des
 <img src="https://user-images.githubusercontent.com/71523671/163729223-d0486073-ac88-48fe-b08f-91d2fb3f21df.png" width="200">
 <img src="https://user-images.githubusercontent.com/71523671/185714211-baa12380-7aec-4003-8e37-6fcf8e4dbc13.png" width="200">
 
-<h3><a href="https://nicolasmatheusferreira.github.io/Blue-and-Gold-Films/">Blue-Gold-Films.github.io</a></h3>
+<h3><a href="https://nicolasmatheusferreira.github.io/Blue-and-Gold-Films/" target="_blank">Blue-Gold-Films.github.io</a></h3>
 
 # Objetivos do trabalho
 
